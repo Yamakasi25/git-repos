@@ -6,8 +6,5 @@ export class Api {
       return await fetch(`${URL}search/repositories?q=${value}&per_page=${REPOS_PER_PAGE}`)
    }
 
-  /*  async loadReposData(name) {
-      return fetch(`${URL}search/repositories?q=${name}&per_page=${REPOS_PER_PAGE}`).then
-   } */
    
 }
