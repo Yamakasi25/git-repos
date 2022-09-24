@@ -9,7 +9,6 @@ export class Search {
    }
    
     searchRepos() {
-      /* const searchValue = this.view.searchInput.value */
       if(this.view.searchInput.value) {
          this.clearRepos();
       this.api.searchRepos(this.view.searchInput.value).then((res) => {
